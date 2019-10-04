@@ -38,6 +38,7 @@ def hit?(num)
     prompt_user
   end
   end
+  display_card_total(num)
 end
 
 def invalid_command
