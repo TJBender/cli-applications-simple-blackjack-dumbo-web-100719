@@ -31,7 +31,10 @@ def initial_round
 end
 
 def hit?(num)
-  if (get_user_input == 'h' || get_user_input == 's')
+  if (get_user_input == 'h')
+    deal_card
+  elsif (get_user_input == 's')
+    
   end
   end
 end
