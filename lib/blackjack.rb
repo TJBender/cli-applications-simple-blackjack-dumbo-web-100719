@@ -31,7 +31,9 @@ def initial_round
 end
 
 def hit?(num)
-  
+  if (get_user_input == 'h' || get_user_input == 's')
+  end
+  end
 end
 
 def invalid_command
