@@ -33,7 +33,8 @@ end
 def hit?(num)
   if (get_user_input == 'h')
     deal_card
-  elsif (get_user_input == 's')
+  elsif (get_user_input != 's' || 
+  get_user_input != 's')
     
   end
   end
