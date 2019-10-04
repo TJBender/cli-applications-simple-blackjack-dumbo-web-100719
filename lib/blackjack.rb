@@ -35,7 +35,7 @@ def hit?(num)
     deal_card
   elsif (get_user_input != 's' || get_user_input != 's')
     invalid_command
-    
+    prompt_user
   end
   end
 end
