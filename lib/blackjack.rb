@@ -30,8 +30,8 @@ def initial_round
   return total
 end
 
-def hit?
-  # code hit? here
+def hit?(num)
+  
 end
 
 def invalid_command
