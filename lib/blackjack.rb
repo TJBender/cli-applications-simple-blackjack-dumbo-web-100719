@@ -53,6 +53,7 @@ end
 
 def runner
   welcome
+  card_total = 
   
 end
     
