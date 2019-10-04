@@ -32,9 +32,10 @@ end
 
 def hit?(card_total)
   prompt_user
-  if gets.chomp == "h"
+  user_input = gets.chomp
+  if user_input == "h"
     card_total += deal_card
-  elsif gets.chomp == "s"
+  elsif user_input == "s"
     card_total
   else
     invalid_command
